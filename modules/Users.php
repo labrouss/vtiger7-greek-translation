@@ -191,6 +191,19 @@ $languageStrings = array(
 	'LBL_NEW_PASSWORD' => 'Νέος Κωδικός',
 	'LBL_CONFIRM_PASSWORD' => 'Επιβεβαίωση Κωδικού',
 	
+ 	//Change Username labels
+        'LBL_CHANGE_USERNAME' => 'Αλλαγή ονόματος χρήστη',
+        'LBL_USERNAME_CHANGED' => 'Όνομα χρήστη άλλαξε επιτυχώς',
+        'ERROR_CHANGE_USERNAME' => 'Πρόβλημα στην αλλαγή ονόματος χρήστη. Παρακαλώ προσπαθήστε αργότερα',
+
+        'LBL_RESTORE_USER_FAILED' => 'Πρόβλημα στην επαναφορά χρήστη. Ίσως υπάρχει ήδη χρήστης με αυτό το όνομα.',
+
+        'LBL_DUPLICATE_USER_EXISTS' => 'Υπάρχει ήδη χρήστης με αυτό το όνομα.',
+
+        /* For Vtiger7*/
+        'LBL_USERS_SETTINGS' => 'USERS SETTINGS',
+        'LBL_TEMPLATES' => 'Templates',
+
 	//Login strings
 	'LBL_TO_CRM' => 'Σύνδεση στο Vtiger CRM',
 	'LBL_INVALID_USER_OR_PASSWORD' => 'Μη Έγκυρο ΄Ονομα η Κωδικός Χρήστη.',
