@@ -7,14 +7,16 @@
  * Portions created by vtiger are Copyright (C) vtiger.
  * All Rights Reserved.
  * 
- * Greek Translation Project initiated : 13 February 2014
- * Repository : https://github.com/cerebrux/vtiger6-greek-translation
+ * Greek Translation Project initiated : 12 June 2017
+ * Repository : https://github.com/mechpanos/vtiger7-greek-translation
  * Author(s):
  *  -- Salih Emin (http://www.linkedin.com/in/salihemin)
  *  -- Mathias Stavrou (http://mstavrou.com/)
  *  -- Konstantinos Paraskeuopoulos (https://www.linkedin.com/in/kparaskevopoulos)
  *  -- Dimitris Anagnostou
- *  -- More: https://github.com/cerebrux/vtiger6-greek-translation/graphs/contributors
+ *  -- Panos Panagiotopoulos (https://github.com/mechpanos/)
+ *  -- More: https://github.com/mechpanos/vtiger7-greek-translation/graphs/contributors
+ *  -- and https://github.com/cerebrux/vtiger6-greek-translation/graphs/contributors
  *************************************************************************************/
 $languageStrings = array(
 	// Basic Strings
@@ -39,10 +41,11 @@ $languageStrings = array(
 	'Employees' => 'Εργαζόμενοι',
 	'Ownership' => 'Κυριότητα',
 	'SIC Code' => 'ΑΦΜ',
-	'Other Email' => 'Δευτερεύων Email',
-	'Other Phone' => 'Δευτερεύων Τηλ',
+	'Other Email' => 'Δευτερεύον Email',
+	'Other Phone' => 'Δευτερεύον Τηλ',
 	'Phone' => 'Τηλέφωνο',
 	'Email' => 'Email',
+	'Type' => 'Τύπος',
 	
 	//Added for existing picklist entries
 	
@@ -61,6 +64,8 @@ $languageStrings = array(
 	'LBL_DUPLICATES_EXIST' => 'Το Όνομα Οργάνωσης υπάρχει ήδη',
 	'LBL_COPY_SHIPPING_ADDRESS' => 'Αντιγραφή Διεύθυνσης αποστολής',
 	'LBL_COPY_BILLING_ADDRESS' => 'Αντιγραφή Διεύθυνσης χρέωσης',
+	'LBL_IMAGE_INFORMATION' => 'Φωτογραφία Προφίλ',
+	'Organization Image' => 'Εικόνα Οργανισμού',
 );
 
 $jsLanguageStrings = array(

@@ -7,14 +7,16 @@
  * Portions created by vtiger are Copyright (C) vtiger.
  * All Rights Reserved.
  * 
- * Greek Translation Project initiated : 13 February 2014
- * Repository : https://github.com/cerebrux/vtiger6-greek-translation
+ * Greek Translation Project initiated : 12 June 2017
+ * Repository : https://github.com/mechpanos/vtiger7-greek-translation
  * Author(s):
  *  -- Salih Emin (http://www.linkedin.com/in/salihemin)
  *  -- Mathias Stavrou (http://mstavrou.com/)
  *  -- Konstantinos Paraskeuopoulos (https://www.linkedin.com/in/kparaskevopoulos)
  *  -- Dimitris Anagnostou
- *  -- More: https://github.com/cerebrux/vtiger6-greek-translation/graphs/contributors
+ *  -- Panos Panagiotopoulos (https://github.com/mechpanos/)
+ *  -- More: https://github.com/mechpanos/vtiger7-greek-translation/graphs/contributors
+ *  -- and https://github.com/cerebrux/vtiger6-greek-translation/graphs/contributors
  *************************************************************************************/
 $languageStrings = array(
 	// Basic Strings
@@ -33,9 +35,13 @@ $languageStrings = array(
 	'LBL_MINUTES' => 'Λεπτά',
 	'LBL_SELECT_USERS' => 'Επιλογή Χρηστών',
 	'LBL_EVENT_OR_TASK' => 'Γεγονός / Εργασία',
+	'LBL_DEFAULT_STATUS_TYPE' => 'Προεπιλ. Κατάσταση & Τύπος',
+        'LBL_STATUS' => 'Κατάσταση',
+        'LBL_TYPE' => 'Τύπος',
 
 	// Blocks
 	'LBL_TASK_INFORMATION' => 'Λεπτομέρειες Εργασίας',
+'LBL_EVENT_INFORMATION'=> 'Λεπτομέρειες Γεγονότος',
 
 	//Fields
 	'Subject' => 'Θέμα',
@@ -43,17 +49,23 @@ $languageStrings = array(
 	'Activity Type'=>'Τύπος Δραστηριότητας',
 	'Send Notification'=>'Αποστολή Ειδοποίησης',
 	'Location'=>'Τοποθεσία',
-	'End Date & Time' => 'Ημερομηνία Λήξης & Ώρα',
+	'End Date & Time' => 'Ημερομηνία & Ώρα Ολοκλήρωσης',
+'Visibility' => 'Ορατότητα',
+	'Recurrence' => 'Επανάληψη',
+
+//Visibility picklist values
+	'Private' => 'Ιδιωτικό',
+	'Public' => 'Δημόσιο',
 
 	//Side Bar Names
-	'LBL_ACTIVITY_TYPES' => 'Activity Types',
+	'LBL_ACTIVITY_TYPES' => 'Τύποι Δραστηριότητας',
 	'LBL_CONTACTS_SUPPORT_END_DATE' => 'Ημερομηνία Λήξης Υποστήριξης',
 	'LBL_CONTACTS_BIRTH_DAY' => 'Γενέθλια',
 	'LBL_ADDED_CALENDARS' => 'Προστεθειμένα Ημερολόγια',
 
 
 	//Activity Type picklist values
-	'Call' => 'Τηλέφωνο',
+	'Call' => 'Κλήση',
 	'Meeting' => 'Συνάντηση',
 	'Task' => 'Εργασία',
 
@@ -63,6 +75,8 @@ $languageStrings = array(
 	'Pending Input' => 'Αναμονή Πρόσθετης Πληροφορίας',
 	'Not Started' => 'Δεν Ξεκίνησε',
 	'Deferred' => 'Αναβλήθηκε',
+'Held' => 'Διεξήχθη',
+	'Not Held' => 'Δεν διεξήχθη',
 
 	//Priority picklist values
 	'Μedium' => 'Μεσαία',
@@ -107,17 +121,81 @@ $languageStrings = array(
 	
 	'ICAL_FORMAT' => 'Τύπος iCal',
 	'LBL_LAST_IMPORT_UNDONE'=>'Τελευταία σας Εισαγωγή έχει αναιρεθεί',
-	'LBL_UNDO_LAST_IMPORT' => 'Αναίρεση Τελευταίας Εισαγωγής'
+	'LBL_UNDO_LAST_IMPORT' => 'Αναίρεση Τελευταίας Εισαγωγής',
+
+//Fixing colors for Shared Calendar and My Calendar
+	'LBL_EDIT_COLOR' => 'Επεξεργασία Χρώματος',
+	'LBL_ADD_CALENDAR_VIEW' => 'Προσθήκη Ημερολογίου',
+	'LBL_SELECT_USER_CALENDAR' => 'Επιλογή Ημερολογίου Χρήστη',
+	'LBL_SELECT_CALENDAR_COLOR' => 'Επιλογή Χρώματος Ημερολογίου',
+	'LBL_EDITING_CALENDAR_VIEW' => 'Επεξεργασία Προβολής Ημερολογίου',
+	'LBL_DELETE_CALENDAR' => 'Διαγραφή Ημερολογίου',
+	'LBL_SELECT_ACTIVITY_TYPE' => 'Επιλογύ Τύπου Δραστηριότητας',
+	'Tasks' => 'Εργασίες',
+	'LBL_SELECT_FIELDS_FOR_RANGE' => 'Επιλογή Πεδίων για την Περιοχή',
+	'LBL_DUPLICATE_VIEW_EXIST' => 'Η Προβολή Ημερολογίου υπάρχει ήδη',
+    // For Event Invitation
+    'LBL_ACTIVITY_NOTIFICATION' => 'Αυτή είναι μια ειδοποίησηThis is a notification that an activity is assigned to you that has been',
+    'LBL_ACTIVITY_INVITATION' => 'Έχετε προσκληθεί σε μια δραστηριότητα',
+    'LBL_DETAILS_STRING' => 'The details are',
+    'LBL_CREATED' => 'δημιουργήθηκε',
+    'LBL_UPDATED' => 'ενημερώθηκε',
+    'Due Date' => 'Προθεσμία',
+    'Priority' => 'Προτεραιότητα',
+    'Related To' => 'Σχετίζεται με',
+    'LBL_CONTACT_LIST' => 'Λίστα Επαφών',
+    'LBL_APP_DESCRIPTION' => 'Περιγραφή',
+    'LBL_REGARDS_STRING' => 'Με εκτίμηση',
+    'LBL_EVENT_INFORMATION' => 'Πληροφορίες Γεγονότος',
+	'LBL_UPDATED_INVITATION' => 'Ενημερωμένη Πρόσκληση',
+	'LBL_INVITATION' => 'Πρόσκληση',
+	
+	//Recurring Events
+	'LBL_EDIT_RECURRING_EVENT' => 'Επεξεργασία Επαναλαμβανόμενου Γεγονότος',
+	'LBL_ALL_EVENTS_EDIT_INFO' => 'Όλα τα γεγονότα σε αυτή την σειρά θα αλλαχθούν.</br> Οποιεσδήποτε αλλαγές γίνουν σε άλλα γεγονότα θα διατηρηθούν.',
+	'LBL_FUTURE_EVENTS_EDIT_INFO' => 'Αυτό και όλα τα επόμενα γεγονότα θα αλλαχθούν.</br> Οποιεσδήποτε αλλαγές σε μελλοντικά γεγονότα θα χαθούν.',
+	'LBL_ONLY_THIS_EVENT_EDIT_INFO' => 'Όλα τα άλλα γεγονότα σε αυτή την σειρά θα παραμείνουν ίδια.',
+	'LBL_EDIT_RECURRING_EVENTS_INFO' => 'Θα θέλατε να αποθηκεύσετε τις αλλαγές για',
+	
+	'LBL_DELETE_RECURRING_EVENT' => 'Διαγραφή Επαναλαμβανόμενου Γεγονότος',
+	'LBL_ALL_EVENTS_DELETE_INFO' => 'Όλα τα γεγονότα σε αυτή την σειρά θα διαγραφούν.',
+	'LBL_FUTURE_EVENTS_DELETE_INFO' => 'Αυτό και όλα τα επόμενα γεγονότα θα διαγραφούν.',
+	'LBL_ONLY_THIS_EVENT_DELETE_INFO' => 'Όλα τα άλλα γεγονότα σε αυτή την σειρά θα παραμείνουν ίδια.',
+	'LBL_DELETE_RECURRING_EVENTS_INFO' => 'Θα θέλατε να διαγράψετε μόνο αυτό το γεγονός, όλα τα γεγονότα σε αυτή την σειρά, ή αυτό και τα μελλοντικά γεγονότα σε αυτή την σειρά;',
+	'LBL_ONLY_THIS_EVENT' => 'Μόνο αυτό το Γεγονός',
+	'LBL_FUTURE_EVENTS' => 'Τα επόμενα Γεγονότα',
+	'LBL_ALL_EVENTS' => 'Όλα τα Γεγονότα',
+	
+	//Reminder Email
+	'LBL_REMINDER_NOTIFICATION' => 'Αυτή είναι μία ειδοποίηση Υπενθύμισης για την Δρασηριότητα',
+    'LBL_SELECT_EVENT_TYPE' => 'Τύπος Δραστηριότητας',
+    'LBL_THIS_WEEK' => 'Αυτή την Εβδομάδα',
+    'LBL_ADD_TASK_AND_PRESS_ENTER' => 'Προσθέστε Εργασία και πιέστε Enter',
+
+	//Months
+	'LBL_JANUARY' => 'Ιανουάριος',
+	'LBL_FEBRUARY' => 'Φεβρουάριος',
+	'LBL_MARCH' => 'Μάρτιος',
+	'LBL_APRIL' => 'Απρίλιος',
+	'LBL_MAY' => 'Μάιος',
+	'LBL_JUNE' => 'Ιούνιος',
+	'LBL_JULY' => 'Ιούλιος',
+	'LBL_AUGUST' => 'Αύγουστος',
+	'LBL_SEPTEMBER' => 'Σεπτέμβριος',
+	'LBL_OCTOBER' => 'Οκτώβριος',
+	'LBL_NOVEMBER' => 'Νοέμβριος',
+	'LBL_DECEMBER' => 'Δεκέμβριος',
+	'LBL_CLICK_HERE_TO_VIEW' => 'Κάντε κλικ εδώ για προβολή',
 
 );
 
 $jsLanguageStrings = array(
 	'LBL_ADD_EVENT_TASK' => 'Προσθήκη Γεγονότος/Εργασίας',
 	'JS_TASK_IS_SUCCESSFULLY_ADDED_TO_YOUR_CALENDAR' => 'Η Εργασία έχει προστεθεί επιτυχώς στο Ημερολόγιό σας',
-    'LBL_SYNC_BUTTON' => 'Synchronize Now',
-    'LBL_SYNCRONIZING' => 'Synchronizing....',
-    'LBL_NOT_SYNCRONIZED' => 'You have not synchronized yet',
-    'LBL_FIELD_MAPPING' => 'Field Mapping',
+    'LBL_SYNC_BUTTON' => 'Συγχρονισμός Τώρα',
+    'LBL_SYNCRONIZING' => 'Συγχρονισμός....',
+    'LBL_NOT_SYNCRONIZED' => 'Δεν έχει γίνει συγχρονισμός ακόμα',
+    'LBL_FIELD_MAPPING' => 'Αντιστοίχιση Πεδίων',
     'LBL_CANT_SELECT_CONTACT_FROM_LEADS' => 'Δεν είναι δυνατή η επιλογή των σχετικών Επαφών ως Προοπτικές',
     'JS_FUTURE_EVENT_CANNOT_BE_HELD' => 'Δεν μπορεί να θεωρηθεί Ολοκληρωμένο στο μέλλον',
 	
@@ -171,4 +249,26 @@ $jsLanguageStrings = array(
 	
 	'LBL_ALL_DAY' => 'Ολοήμερο',
 	//End
+//Fixing colors for Shared Calendar and My Calendar
+	'JS_CALENDAR_VIEW_COLOR_UPDATED_SUCCESSFULLY' => 'Το χρώμα της Προβολής Ημερολογίου ενημερώθηκε επιτυχώς',
+	'JS_CALENDAR_VIEW_DELETE_CONFIRMATION' => 'Είστε σίγουρος ότι θέλετε να διαγράψετε αυτή την Προβολή Ημερολογίου;',
+	'JS_CALENDAR_VIEW_ADDED_SUCCESSFULLY' => 'Η Προβολή Ημερολογίου προστέθηκε επιτυχώς',
+	'JS_CALENDAR_VIEW_DELETED_SUCCESSFULLY' => 'Η Προβολή Ημερολογίου διαγράφηκε επιτυχώς',
+	'JS_NO_CALENDAR_VIEWS_TO_ADD' => 'Δεν υπάρχει Προβολή Ημερολογίου προς προσθήκη',
+	'JS_EDIT_CALENDAR' => 'Επεξεργασία Ημερολογίου',
+    
+    //v7
+    'JS_EVENT_UPDATED' => 'Το Γεγονός Ενημερώθηκε',
+    'JS_NO_EVENTS_F0R_THE_DAY' => 'Δεν υπάρχουν Γεγονότα για την ημερομηνία',
+    'LBL_AGENDA' => 'Ατζέντα',
+    'JS_CALENDAR_VIEW_YOU_ARE_EDITING_NOT_FOUND' => 'Η Προβολή Ημερολογίου δεν βρέθηκε',
+    
+    'JS_DELETE' => 'Διαγραφή',
+    'JS_EDIT' => 'Επεξεργασία',
+    'JS_MARK_AS_HELD' => 'Σημείωση ως διεξαχθέν',
+    'JS_CREATE_FOLLOW_UP' => 'Δημιουργία follow up',
+    'JS_RECURRING_EVENT' => 'Επαναλαμβανόμενο Γεγονός',
+    'JS_DETAILS' => 'Περισσότερες&nbsp;Πληροφορίες',
+    'JS_CHECK_START_AND_END_DATE'=>'Η Ημερομηνία & Ώρα Λήξης πρέπει να είναι μεγαλύτερη ή ίση από την Ημερομηνία & Ώρα Έναρξης',
+    'JS_CHECK_START_AND_END_DATE_SHOULD_BE_GREATER'=> 'Η Ημερομηνία & Ώρα Λήξης πρέπει να είναι μεγαλύτερη από την Ημερομηνία & Ώρα Έναρξης',
 );
