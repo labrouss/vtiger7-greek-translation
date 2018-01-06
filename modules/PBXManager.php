@@ -19,15 +19,31 @@
 $languageStrings = array(
 	
 	'Asterisk' => 'Asterisk',
-	'PBXManager' => 'Διαχειριστής PBX',
-	'SINGLE_PBXManager' => 'Διαχειριστής PBX',
-	
-	//Blocks
-	'LBL_CALL_INFORMATION' => 'Λεπτομέριες Κλήσης',
-	
-	//Field Labels
 	'Call From'=>'Κλήση Από',
 	'Call To'=>'Κλήση Πρός',
-	'Time Of Call'=>'Ώρα Κλήσης',
+	'LBL_CALL_INFORMATION' => 'Λεπτομέρειες Κλήσης',
 	'PBXManager ID'=>'ID Διαχειριστή PBX',
+	'PBXManager' => 'Διαχειριστής PBX',
+	'SINGLE_PBXManager' => 'Διαχειριστής PBX',
+	'Time Of Call'=>'Ώρα Κλήσης',
+    //Blocks
+    'LBL_PBXMANAGER_INFORMATION' => 'Λεπτομέρειες Κλήσης',
+    'LBL_CUSTOM_INFORMATION'=>'Custom Information',
+    
+    // list view settings links
+    'LBL_SERVER_CONFIGURATION' => 'Ρυθμίσεις παρόχου',
+    
+    //Detail view header title
+    'LBL_CALL_FROM' => 'Κλήση από',
+    'LBL_CALL_TO' => 'Κλήση προς',
+    
+    //Incoming call pop-up 
+    'LBL_HIDDEN' => '(HIDDEN)', 
+  
+    // Fields
+    'Total Duration' => 'Διάρκεια (δευτ)',
+    'Bill Duration'  => 'Λογαριαρμός διάρκεια (δευτ)',
+    'Recording URL' => 'Εγγραφή',
+    
+    'SINGLE_PBXManager' => 'Διαχειριστής PBX' ,
 );

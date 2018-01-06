@@ -19,8 +19,6 @@
 
 $languageStrings = array (
 	'MailManager' => 'Διαχείριση Email',
-	
-	// General translations
 	'LBL_Folders'         => 'Φάκελοι',
 	'LBL_Newer'           => 'Νεότερα',
 	'LBL_Older'           => 'Παλαιότερα',
@@ -48,7 +46,6 @@ $languageStrings = array (
 	'LBL_ACTIONS'         => 'Επιλογές',
 	'LBL_Search'          => 'Αναζήτηση',
 	'LBL_Delete'            =>  'Διαγραφή',
-	
 	'LBL_Username'             => 'Όνομα χρήστη',
 	'LBL_Your_Mailbox_Account' => 'Ο λογαριασμός ηλεκτρονικού ταχυδρομείου',
 	'LBL_Password'             => 'Συνθηματικό',
@@ -64,7 +61,6 @@ $languageStrings = array (
 	'LBL_Validate_Cert'           => 'Επικύρωση πιστοποιητικού',
 	'LBL_Do_Not_Validate_Cert'    => 'Μη επικύρωση πιστοποιητικού',
 	'LBL_SELECT_ACCOUNT_TYPE'     => 'Επιλογή τύπου',
-	
 	'LBL_FROM'        => 'Από',
 	'LBL_TO'          => 'Προς',
 	'LBL_CC'          => 'Κοινοποίηση',
@@ -96,6 +92,7 @@ $languageStrings = array (
     'LBL_MAILMANAGER_ADD_HelpDesk' => 'Προσθήκη αιτήματος',
     'LBL_MAILMANAGER_ADD_Emails' => 'Επισύναψη email',
     'LBL_MAILMANAGER_ADD_ModComments' => 'Προσθήκη σχολίου',
+	'LBL_MAILMANAGER_ADD_Potentials' => 'Προσθήκη ευκαιρίας',
     'LBL_ADD' => 'Προσθήκη',
 	'JSLBL_Body_Cannot_Be_Empty' => 'Το κύριο μέρος δεν μπορεί να είναι κενό',
 	'LBL_ALLMAILS' => 'Όλα τα email',
@@ -105,17 +102,39 @@ $languageStrings = array (
 	'LBL_TO_USERS' => 'Στους χρήστες',
 	'LBL_SENT_MAILS' => 'Απεσταλμένα email',
 	'LBL_Print' => 'Εκτύπωση',
-	
 	'LBL_SAVE_BUTTON_LABEL' => 'Αποθήκευση',
 	'LBL_CANCEL_BUTTON_LABEL' => 'Ακύρωση',
 	'LBL_CREATE_MAILBOX' => 'Δημιουργία γραμματοκιβωτίου',
-	'LBL_WRITE_YOUR_COMMENT_HERE' => 'Πρόσθεσε σχόλιο ...'
+	'LBL_WRITE_YOUR_COMMENT_HERE' => 'Πρόσθεσε σχόλιο ...',
+	'LBL_MAILBOX_DETAILS' => 'Mailbox Details',
+	'LBL_DELETE_Mailbox' => 'Delete Mailbox',
+	'LBL_ACCOUNT_TYPE' => 'Account Type',
+	'LBL_MODULE_DESCRIPTION' => "Mail Manager is an integrated email client that allows users to perform CRM related actions on incoming email. It helps you create Leads, Contacts, Organizations, Trouble Tickets and Tasks from the emails that you receive in your inbox. Should sender's email id match with a record in vtiger CRM, you can perform more actions like, Attaching email, Adding Task, Comment and Ticket. Additionally, you can manage composing, replying, forwarding emails etc.",
+    'LBL_CHOOSE_EXISTING_FOLDER' => 'Choose an existing folder',
+    'LBL_CHOOSE_FOLDER_DESC' => 'Copies of the sent mails for this account will be saved in the default <b>Sent Mail</b> folder.<br><br>
+            If you want to change the default sent mail folder, after creating the mail box click on <b>Settings</b> icon and <b>Edit</b> the MailBox.',
+    'LBL_CHOOSE_FOLDER' => 'Copies of the sent mails for this account will be saved in this folder.',
+    'LBL_SELECTED_FOLDER' => 'Selected Folder',
+	'LBL_EDIT_MAILBOX' => 'Edit Mailbox',
+	'LBL_SELECT_ACCOUNT' => 'Select Account',
+	'LBL_SAVE_SENT_MAILS_IN' => 'Save sent mails in',
+	'LBL_CONFIGURE_MAILBOX' => 'Configure Mailbox',
+	'LBL_INBOX' => 'Inbox',
+	'LBL_SENT' => 'Sent',
+	'LBL_TRASH' => 'Trash',
+	'LBL_TYPE_TO_SEARCH' => 'Type to search...',
+	'LBL_NO_MAIL_SELECTED_DESC' => 'No mail selected. Click on mail for preview.',
+	'LBL_FILES' => 'files',
+	'LBL_CC_SMALL' => 'Cc',
+	'LBL_BCC_SMALL' => 'Bcc',
+	'LBL_MARK_AS_READ' => 'Mark as read',
+	'LBL_ADD_CALENDAR' => 'Add Task',
+	'LBL_ADD_EVENTS' => 'Add Event',
+	'LBL_MAILMANAGER_ADD_Cases' => 'Add Case',	
 );
 
 $jsLanguageStrings = array (
 	'MailManager' => 'Διαχείριση Email',
-	
-	// Translations for JS (please use the prefix JSLBL in key)
 	'JSLBL_Loading_Please_Wait'  => 'Φόρτωση email παρακαλώ περιμένετε',
 	'JSLBL_Loading'              => 'Φόρτωση',
 	'JSLBL_Settings'             => 'Ρυθμίσεις',
@@ -181,6 +200,15 @@ $jsLanguageStrings = array (
     'JSLBL_NO_EMAILS_SELECTED' => 'Δεν επιλεχθηκαν email.',
     'JSLBL_ENTER_SOME_VALUE' => 'Πληκτρολογήστε κάτι για αναζήτηση',
     'JSLBL_DRAFT_MAIL_SAVED'=>'Το Email αποθηκεύτηκε στα πρόχειρα',
+		'JS_FUTURE_EVENT_CANNOT_BE_HELD' => 'Cannot Be Held For Future',
+    'JSLBL_ENTER_VALID_EMAIL_ADDRESS' => 'Please enter a valid email address.',
+	'LBL_DELETE_CONFIRMATION' => 'Are you sure you want to delete the email(s) permanently?',
+	'JS_DELETE_MAILBOX_SETTINGS_CONFIRMATION' => 'Are you sure you want to Delete?',
+	'JSLBL_NO_MAIL_SELECTED_DESC' => 'No mail selected. Click on mail for preview.',
+	'JSLBL_FAILED_ADDING_COMMENT' => 'Failed to add comment',
+	'JSLBL_MAILS_DELETED' => 'Mail(s) deleted successfully.',
+	'JSLBL_MAILS_MARKED_UNREAD' => 'Mail(s) marked as unread.',
+	'JSLBL_MAILS_MARKED_READ' => 'Mail(s) marked as read.',
 );
 
 // Special Handling: Mix of language strings are used.

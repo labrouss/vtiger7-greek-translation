@@ -74,3 +74,7 @@ $languageStrings = array(
 	'Contacted - Unsuccessful' => 'Έγινε Επικοινωνία - Ανεπιτυχής',
 	'Contacted - Never Contact Again' => 'Έγινε Επικοινωνία - Ποτέ Ξανά Επικοινωνία',
 );
+
+$jsLanguageStrings = array(
+	'JS_APPENDED_TO_EXISTING_LIST' => '%s από την επιλεγμένη λίστα θα προσθεθούν στην υπάρχουσα λίστα.',
+);

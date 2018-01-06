@@ -105,4 +105,14 @@ $languageStrings = array(
 	'LBL_MAIL_SENT' => 'Σας έχει σταλεί Email τα στοιχεία σύνδεσής σας στην Δικτυακή Πύλη Πελάτη',
 	'LBL_ALTBODY' => 'Αυτό είναι το κυρίως σώμα απλού κειμένου για μη-HTML εφαρμογές email',
 	'HelpDesk ID' => 'Κωδ. Αιτήματος',
+	//Portal shortcuts
+	'LBL_ADD_DOCUMENT'=>'Δημιουργία Εγγράφου',
+	'LBL_OPEN_TICKETS'=>'Άνοιγμα αιτήματος',
+	'LBL_CREATE_TICKET'=>'Δημιουργία αιτήματος'
+);
+
+$jsLanguageStrings=array(
+	'LBL_ADD_DOCUMENT'=>'Δημιουργία Εγγράφου',
+	'LBL_OPEN_TICKETS'=>'Άνοιγμα αιτήματος',
+	'LBL_CREATE_TICKET'=>'Δημιουργία αιτήματος'
 );

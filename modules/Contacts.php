@@ -59,6 +59,8 @@ $languageStrings = array(
 	'Email' => 'Email',
 	'Secondary Email' => 'Άλλο Email',
 	'Contact Id' => 'Αρ. Επαφής',
+	'Support Start Date' => 'Έναρξη υποστήριξης',
+    'Support End Date'   => 'Τέλος υποστήριξης',
 	
 	//Added for Picklist Values
 	'Mr.'=>'κος.',
@@ -68,11 +70,8 @@ $languageStrings = array(
 	'Prof.'=>'καθ.',
 	
 	'User List'=>'Λίστα χρηστών',
+	'LBL_TRANSACTIONS' => 'Συνναλαγές',
 );
 
 $jsLanguageStrings = array(
-        'LBL_SYNC_BUTTON' => 'Συγχρόνισε Τώρα',
-        'LBL_SYNCRONIZING' => 'Συγχρονίζει....',
-        'LBL_NOT_SYNCRONIZED' => 'Δεν έχετε συγχρονίσει ακόμα',
-        'LBL_FIELD_MAPPING' => 'Αντιστοίχιση πεδίων'
- );
+);

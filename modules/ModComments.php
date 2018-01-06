@@ -32,5 +32,8 @@ $languageStrings = array(
 	'Comment' => 'Σχόλιο',
 	'Creator' => 'Δημιουργός',
 	'Related To Comments' => 'Σχετικά Σχόλια',
-	
+
+	//other
+	'LBL_COMMENTED_AT' => 'Σχολιάστηκε'
+
 );

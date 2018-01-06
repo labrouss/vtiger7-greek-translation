@@ -17,6 +17,7 @@
  *  -- More: https://github.com/cerebrux/vtiger6-greek-translation/graphs/contributors
  *************************************************************************************/
 $languageStrings = array(
+	'Email Templates' => 'Πρότυπα Email',
 	'LBL_ADD_RECORD' => 'Προσθέστε Πρότυπο Email',
 	'SINGLE_EmailTemplates' => 'Πρότυπο Email',
 	'LBL_EMAIL_TEMPLATES'=> 'Πρότυπα Email',
@@ -29,5 +30,12 @@ $languageStrings = array(
 	'LBL_SELECT_FIELD_TYPE' => 'Επιλογή Τύπου Πεδίου',
 	
 	'LBL_EMAIL_TEMPLATE_DESCRIPTION'=>'Διαχείριση Προτύπων για το Άρθρωμα του Email',
+	'LBL_NO_PERMISSIONS_TO_DELETE_SYSTEM_TEMPLATE' => 'Δεν έχετε δικαίωμα διαγραφής του System Template',
+	'LBL_RECORD_ID' => 'Αριθμός εγγραφής',
 	
+);
+
+$jsLanguageStrings = array(
+    'LBL_CUTOMER_LOGIN_DETAILS_TEMPLATE_DELETE_MESSAGE' => 'You will not be able to send the customer portal login details to the contact if you delete "Customer Login Details" template. Do you wish to continue ?',
+	'JS_REQUIRED_FIELD' => '* System Email Template Content is Required',
 );

@@ -30,4 +30,7 @@ $languageStrings = array(
 	//Field Labels
 	'Price Book Name' => 'Όνομα Τιμοκαταλόγου',
 	'PriceBook No' => 'Αρ. Τιμοκαταλόγου',
+	
+	'LBL_UNIT_PRICE' => 'Τιμή μονάδας',
+	'LBL_ADD_TO' => 'Προσθήκη σε',
 );

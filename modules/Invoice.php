@@ -17,6 +17,7 @@
  *  -- More: https://github.com/cerebrux/vtiger6-greek-translation/graphs/contributors
  *************************************************************************************/
 $languageStrings = array(
+	'Invoice'   =>  'Τιμολόγια',
 	//DetailView Actions
 	'SINGLE_Invoice' => 'Τιμολόγιο',
 	'LBL_EXPORT_TO_PDF' => 'Εξαγωγή σε PDF',
@@ -50,6 +51,9 @@ $languageStrings = array(
 	'LBL_THIS' => 'Αυτό',
 	'LBL_IS_DELETED_FROM_THE_SYSTEM_PLEASE_REMOVE_OR_REPLACE_THIS_ITEM' => 'διεγράφη από το σύστημα. παρακαλούμε να αφαιρέσετε ή να αντικαταστήσετε αυτό το στοιχείο',
 	'LBL_THIS_LINE_ITEM_IS_DELETED_FROM_THE_SYSTEM_PLEASE_REMOVE_THIS_LINE_ITEM' => 'Αυτό το στοιχείο γραμμής έχει διαγραφεί από το σύστημα, παρακαλούμε να καταργήσετε αυτό στοιχεία γραμμής',
+	'LBL_NOT_A_BUNDLE' => 'Δεν είναι πακέτο',
+	'LBL_SUB_PRODUCTS'	=> 'Yποπροϊόνta',
+	'LBL_ACTION'	=> 'Action',
 );
 
 $jsLanguageStrings = array(

@@ -31,4 +31,8 @@ $languageStrings = array(
 	'LTFAQ' => 'Πρόσφατα FAQs',
 	'UA' => 'Προσεχείς Δραστηριότητες',
 	'PA' => 'Εκκρεμής Δραστηριότητες',
+	'Home'=> 'Dashboard',
+	'LBL_SAVE_ORDER'=>'Αποθήκευση κατανομής',
+	'LBL_ADD_NEW_DASHBOARD'=>'Προσθήκη ταμπλό,
+	'LBL_MAX_CHARACTERS_ALLOWED_DASHBOARD' => '30 Χαρακτήρες είναι το μέγιστο επιτρεπτό όριο για το όνομα του ταμπλό.',
 );

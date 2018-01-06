@@ -36,6 +36,7 @@ $languageStrings = array(
 	'Forecast Amount' => 'Πρόγνωση Ποσού',
 	'Related To' => 'Όνομα Οργανισμού',
 	'Contact Name' => 'Όνομα Επαφής',
+	'Type' => 'Type',
 	
 	//Dashboard widgets
 	'Funnel' => 'Πωλήσεις Τύπου ΄΄Χωνί΄΄',
@@ -65,4 +66,18 @@ $languageStrings = array(
 	//widgets headers
 	'LBL_RELATED_CONTACTS' => 'Σχετικές Επαφές',
 	'LBL_RELATED_PRODUCTS' => 'Σχετικά Προϊόντα',
+	
+	//Convert Potentials
+    'LBL_CONVERT_POTENTIAL' => 'Μετατροπή Ευκαιρίας',
+	'LBL_CREATE_PROJECT' => 'Δημιουργία έργου',
+    'LBL_POTENTIALS_FIELD_MAPPING' => 'Opportunities Field Mapping',
+    'LBL_CONVERT_POTENTIALS_ERROR' => 'You have to enable Project to convert the Opportunity',
+    'LBL_POTENTIALS_FIELD_MAPPING_INCOMPLETE' => 'Opportunities Field Mapping is incomplete(Settings > Module Manager > Opportunities > Opportunities Field Mapping)',
+    
+    //Potentials Custom Field Mapping
+	'LBL_CUSTOM_FIELD_MAPPING'=> 'Opportunity to Project mapping',
+);
+
+$jsLanguageStrings = array(
+	'JS_SELECT_PROJECT_TO_CONVERT_LEAD' => 'Conversion requires selection of Project',
 );

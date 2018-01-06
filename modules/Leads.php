@@ -75,7 +75,9 @@ $languageStrings = array(
 
 	//Leads Custom Field Mapping
 	'LBL_CUSTOM_FIELD_MAPPING'=> 'Τροποποίηση αντιστοίχισης πεδίων',
+	'LBL_IMAGE_INFORMATION' => 'Φωτογραφία προφίλ',
 	'LBL_WEBFORMS' => 'Ρύθμιση Δικτυακής Φόρμας',
+	'Lead Image' => 'Lead Image',
 );
 $jsLanguageStrings = array(
 	'JS_SELECT_CONTACTS' => 'Επιλογή επαφών για συνέχιση',

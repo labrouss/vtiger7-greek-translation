@@ -97,5 +97,18 @@ $languageStrings = array(
 	
 	'LBL_ADD_TO_PRICEBOOKS' => 'Προσθήκη στους Τιμοκαταλόγους',
 	'LBL_CONVERSION_RATE' => 'Ποσοστό Μετατροπής',
-	'LBL_NOT_A_BUNDLE' => 'Δεν είναι Δέμα Προϊόντων',
+	'LBL_NOT_A_BUNDLE' => 'Δεν είναι πακέτο Προϊόντων',
+	'LBL_PRODUCTSMOD_DISABLED' => 'Enable Products Module to view Products',
+	'LBL_SHOW_BUNDLE_IN_INVENTORY' => 'Show bundle items in Invoice/Quotes/Sales Order/Purchase Order',
+	'LBL_BUNDLE_TOTAL_COST' => 'Συνολικό κόστος πακέτου προϊόντων',
+	'LBL_UPDATE_BUNDLE_PRICE' => 'Ενημέρωση τιμών πακέτου προϊόντων',
+	'LBL_PRODUCT_NAME' => 'Όνομα προϊόντων',
+	'LBL_PRICE_QUANTITY' => 'Τιμή x Ποσότητα',
+);
+
+$jsLanguageStrings = array(
+	'JS_SUB_PRODUCTS_WILL_BE_SHOWN_IN_INVENTORY' => 'Sub products will be shown in the Inventory',
+	'JS_SUB_PRODUCTS_WILL_NOT_BE_SHOWN_IN_INVENTORY' => 'Sub products will not be shown in the Inventory',
+	'JS_SUCCESSFULLY_CHANGED_BUNDLE_COST' => 'Successfully changed total cost of bundle',
+	'JS_DELETION_OR_IN_ACTIVATION_CHILD_PRODUCT_MESSAGE' => 'This product is part of a Product bundle. The price of the bundle remain unchanged when a bundle item is deleted or inactivated. Are you sure you want to proceed?',
 );

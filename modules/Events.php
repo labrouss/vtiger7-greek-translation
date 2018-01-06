@@ -20,7 +20,6 @@
 /* NOTE: Should be inline with Calendar language translation but few variations */
 
 $languageStrings = array(
-	'LBL_CREATE_FOLLOWUP_EVENT' => 'Δημιουργία συνέχειας Γεγονότος',
 	// Basic Strings
 	'Events' => 'Γεγονότα',
 	'SINGLE_Events' => 'Γεγονός',
@@ -29,6 +28,7 @@ $languageStrings = array(
 	'LBL_EVENTS' => 'Γεγονότα',
 	'LBL_TODOS' => 'Προς Εκτέλεση',
 	'LBL_HOLD_FOLLOWUP_ON' => 'Παρακολούθηση συνέχειας στις',
+	'LBL_CREATE_FOLLOWUP_EVENT' => 'Δημιουργία συνέχειας Γεγονότος',
 	
 	// Blocks
 	'LBL_EVENT_INFORMATION' => 'Πληροφορίες Γεγονότων',
@@ -42,9 +42,11 @@ $languageStrings = array(
 	'Location'=>'Τοποθεσία',
 	'Send Reminder' => 'Αποστολή Email πριν από',
 	'End Date & Time' => 'Ημερομηνία Περαίωσης',
+	'End Date' => 'End Date & Time',
 	'Activity Type'=>'Τύπος Δραστηριότητας',
 	'Visibility' => 'Ορατότητα',
 	'Recurrence' => 'Επανάληψη',
+	'Related To' => 'Σχετικό με',
 	
 	//Visibility picklist values
 	'Private' => 'Ιδιωτικό',
@@ -103,6 +105,8 @@ $languageStrings = array(
 
     'LBL_INVITE_USER_BLOCK' => 'Πρόσκληση',
     'LBL_INVITE_USERS' => 'Πρόσκληση Χρηστών',
+	'LBL_INVITE_PEOPLE' => 'Invite People',
 	'INVITATION'=>' Πρόσκληση ',
+	'Busy' => 'Busy',
 
 );
